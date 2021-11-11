@@ -8,7 +8,7 @@ PE = "1"
 
 require ${COREBASE}/meta/recipes-bsp/u-boot/u-boot.inc
 
-UBOOT_REPO ?= "git://github.com/altera-opensource/u-boot-socfpga.git"
+UBOOT_REPO ?= "git://github.com/arrow-socfpga/u-boot-socfpga.git"
 UBOOT_PROT ?= "https"
 
 UBOOT_VERSION_PREFIX ?= "socfpga_"
